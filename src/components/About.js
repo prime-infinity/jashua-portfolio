@@ -12,10 +12,7 @@ const About = () => {
             <h3 className="subtitle">About Me</h3>
             <h3 className="title">Biography</h3>
             <p className="desc">
-              {`I'm a Freelancer Front-end Developer with over 12 years
-                        of experience. I'm from San Francisco. I code and create
-                        web elements for amazing people around the world. I like
-                        work with new people. New people are new experiences.`}
+              {`I’m a UI/UX Designer with 3 years of professional experience in delivering solutions to product problems. I’m from Nigeria and I’ve had the privilege to work with amazing people remotely from roughly 4 continents while freelancing, working on contract and full time roles.`}
             </p>
           </div>
           {/* /Main Title */}
@@ -26,40 +23,28 @@ const About = () => {
                 <tbody>
                   <tr>
                     <th>Name</th>
-                    <th>Bruce Wilson</th>
+                    <th>Something Jashua</th>
                   </tr>
-                  <tr>
-                    <th>Birthday</th>
-                    <th>4th April 1990</th>
-                  </tr>
-                  <tr>
-                    <th>Age</th>
-                    <th>31 years</th>
-                  </tr>
+
                   <tr>
                     <th>Address</th>
-                    <th>San Francisco</th>
+                    <th>Edo state, Nigeria </th>
                   </tr>
                   <tr>
                     <th>Phone</th>
                     <th>
-                      <a href="tel:+3846923442364">(+38) 469 2344 2364</a>
+                      <a href="tel:+234 814 743 8611">+234 814 743 8611</a>
                     </th>
                   </tr>
                   <tr>
                     <th>Email</th>
                     <th>
-                      <a href="mailto:trendycoder.com@gmail.com">
-                        trendycoder.com@gmail.com
+                      <a href="mailto:Jashuadesigns@gmail.com">
+                        Jashuadesigns@gmail.com
                       </a>
                     </th>
                   </tr>
-                  <tr>
-                    <th>Skype</th>
-                    <th>
-                      <a href="skype:brucewilson.90">brucewilson.90</a>
-                    </th>
-                  </tr>
+                 
                 </tbody>
               </table>
             </div>

@@ -12,7 +12,7 @@ const Home = () => {
               specializing in creating stylish, modern websites, web services
               and online store.
             </p>
-            <img src="img/signature.png" alt="image" />
+            {/*<img src="img/signature.png" alt="image" />*/}
           </div>
           {/* /Main Title */}
         </div>
