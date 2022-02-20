@@ -23,7 +23,7 @@ const About = () => {
                 <tbody>
                   <tr>
                     <th>Name</th>
-                    <th>Something Jashua</th>
+                    <th>Ogbemudia Jashua</th>
                   </tr>
 
                   <tr>
@@ -51,7 +51,7 @@ const About = () => {
             <div className="about_right">
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
-                <a href="img/cv.jpg" download>
+                <a href="img/Josh’s Resume.pdf" download>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -122,41 +122,40 @@ const About = () => {
                       <div className="item">
                         <div className="item_top">
                           <h5>Frenify LLC</h5>
-                          <span>( 2018 — Today )</span>
+                          <span>( Sep 2021 - Dec 2021 )</span>
                         </div>
-                        <h3>Sr. Front-end Engineer</h3>
+                        <h3>Lead UI/UX Designer</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                        Redesigned and restructured the experience of a freelance product
+                        that connects talents in Africa to clients all over the world.{" "}
                         </p>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Google LLC</h5>
-                          <span>( 2016 — 2018 )</span>
+                          <h5>Azurestech</h5>
+                          <span>( Nov 2020 - Sep 2021 )</span>
                         </div>
-                        <h3>Front-end Developer</h3>
+                        <h3>Lead UI/UX Designer</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                        Directly collaborated with CEO and Product team to prototype,
+                        design and deliver the user interface of a social media application for
+                        christians with seamless user experience.{" "}
                         </p>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Twitter LLC</h5>
-                          <span>( 2016 — 2011 )</span>
+                          <h5>Onqoba Agency</h5>
+                          <span>( Jan 2020 - Sep 2020 )</span>
                         </div>
-                        <h3>Graphic Designer</h3>
+                        <h3>UI/UX Designer</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                        Designed mobile UI applications for Fintech, health and ecommerce
+                        industries and also worked close to developers to ensure pixel
+                        perfect developement.{" "}
                         </p>
                       </div>
                     </li>
@@ -173,45 +172,24 @@ const About = () => {
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Frenify University</h5>
-                          <span>( 2014 — 2017 )</span>
+                          <h5>University Of Benin</h5>
+                          <span>( 2015 — 2020 )</span>
                         </div>
-                        <h3>Computer Science</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
+                        <h3>Bachelor in Petroleum Engineering</h3>
+                        
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Edu University</h5>
-                          <span>( 2011 — 2014 )</span>
+                          <h5>The interaction design foundation</h5>
+                          <span>( 2020 )</span>
                         </div>
-                        <h3>Master Degree</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
+                        <h3>Product | UI/UX Design Membership</h3>
+                        
                       </div>
                     </li>
-                    <li>
-                      <div className="item">
-                        <div className="item_top">
-                          <h5>Clolumbia College</h5>
-                          <span>( 2007 — 2011 )</span>
-                        </div>
-                        <h3>Bachelor Degree</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
-                      </div>
-                    </li>
+                    
                   </ul>
                 </div>
                 {/* /Boxed List */}
@@ -221,23 +199,23 @@ const About = () => {
               <div id="tab3" className={`tab_item ${activeList("tab3")}`}>
                 {/* Progress Bar */}
                 <div className="resumo_fn_progress_bar">
-                  <div className="progress_item open" data-value={92}>
+                  <div className="progress_item open" data-value={98}>
                     <div className="item_in">
-                      <h3 className="progress_title">Adobe Photoshop</h3>
+                      <h3 className="progress_title">Figma</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "8%" }}
+                        style={{ right: "2%" }}
                       >
                         92%
                       </span>
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "92%" }} />
+                        <div className="progress_bg" style={{ width: "98%" }} />
                       </div>
                     </div>
                   </div>
                   <div className="progress_item open" data-value={95}>
                     <div className="item_in">
-                      <h3 className="progress_title">HTML5 &amp; CSS3</h3>
+                      <h3 className="progress_title">Adobe Photoshop</h3>
                       <span
                         className="progress_percent"
                         style={{ right: "5%" }}
@@ -249,34 +227,7 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={80}>
-                    <div className="item_in">
-                      <h3 className="progress_title">WordPress</h3>
-                      <span
-                        className="progress_percent"
-                        style={{ right: "20%" }}
-                      >
-                        80%
-                      </span>
-                      <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "80%" }} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="progress_item open" data-value={85}>
-                    <div className="item_in">
-                      <h3 className="progress_title">Adobe Illustrator</h3>
-                      <span
-                        className="progress_percent"
-                        style={{ right: "15%" }}
-                      >
-                        85%
-                      </span>
-                      <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "85%" }} />
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
 
                 {/* /Progress Bar */}
@@ -284,10 +235,7 @@ const About = () => {
                 <div className="resumo_fn_desc">
                   <p>
                     A freelance creative designer with a love for minimal
-                    design, clean typography and well-written code, located in
-                    San Francisco. Provide high quality and cost effective
-                    offshore web and software development services. Wide range
-                    of web and software development services across the world.
+                    design, and clean typography.
                   </p>
                 </div>
               </div>
